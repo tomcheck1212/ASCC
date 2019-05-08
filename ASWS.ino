@@ -125,8 +125,8 @@ void setup() {
   // initialize RTC
 
   Rtc.Begin();
-  RtcDateTime compiled = RtcDateTime(__DATE__, __TIME__);
-  Rtc.SetDateTime(compiled);
+  //RtcDateTime compiled = RtcDateTime(__DATE__, __TIME__);
+  //Rtc.SetDateTime(compiled);
 
   // initialize Task Timer
   timerDTs = millis();
